@@ -4,9 +4,6 @@ Resources for the PolyConf 2015 relational interpreters workshop
 PolyConf 2015: 
 http://polyconf.com/
 
-Workshop description:
-
-```
 Write a Relational Scheme Interpreter in miniKanren
 
 William Byrd
@@ -16,7 +13,6 @@ constraint logic programming. We will begin with an overview of the miniKanren l
 simple miniKanren relations that "run backward." We will then write a more sophisticated miniKanren program: an
 environment-passing Scheme interpreter, written as a relation. We will extend the interpreter in various ways, and
 explore how the interpreter can be used for program synthesis.
-```
 
 miniKanren.org: 
 http://minikanren.org/
