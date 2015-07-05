@@ -140,13 +140,6 @@ calculating quines in the context of append -- takes a minute
  Condition components:
    1. &interrupted
    2. &message: "received an interrupt signal"
-> eval-expro
-Unhandled exception
- Condition components:
-   1. &undefined
-   2. &who: eval
-   3. &message: "unbound variable"
-   4. &irritants: (eval-expro)
 > eval-expo
 #<procedure eval-expo [char 1447 of interp-no-match.scm]>
 > evalo

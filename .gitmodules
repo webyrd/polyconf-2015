@@ -1,3 +1,6 @@
 [submodule "faster-miniKanren"]
 	path = faster-miniKanren
 	url = https://github.com/michaelballantyne/faster-miniKanren
+[submodule "talk-code/relational-interpreter-with-match"]
+	path = talk-code/relational-interpreter-with-match
+	url = https://github.com/webyrd/relational-interpreter-with-match
