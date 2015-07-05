@@ -8,8 +8,20 @@ http://polyconf.com/
 
 Talk
 
+`append`, `appendo`, proof checker/theorem prover code:
+`scheme-interpreter/poly-scheme.scm`
 
+Semantics for the WHILE language adapted from 'Semantics with Applications: A Formal Introduction' by Hanne Riis Nielson and Flemming Nielson.  Wiley Professional Computing, (240 pages, ISBN 0 471 92980 8), Wiley, 1992. Revised 1999 version available online at:
+http://www.daimi.au.dk/~bra8130/Wiley_book/wiley.html
 
+Symbolic execution example adapted from Stephen Chong's slides (with content from slides by Jeff Foster):
+http://www.seas.harvard.edu/courses/cs252/2011sp/slides/Lec13-SymExec.pdf
+
+Symbolic execution code in WHILE:
+`while-interpreter/poly-while.scm`
+
+Example symbolic execution call:
+`while-interpreter/poly-trans.scm`
 
 ------
 
