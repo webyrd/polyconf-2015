@@ -9,7 +9,7 @@ http://polyconf.com/
 Talk
 
 `append`, `appendo`, proof checker/theorem prover code:
-`scheme-interpreter/poly-scheme.scm`
+`talk-code/scheme-interpreter/poly-scheme.scm`
 
 Semantics for the WHILE language adapted from 'Semantics with Applications: A Formal Introduction' by Hanne Riis Nielson and Flemming Nielson.  Wiley Professional Computing, (240 pages, ISBN 0 471 92980 8), Wiley, 1992. Revised 1999 version available online at:
 http://www.daimi.au.dk/~bra8130/Wiley_book/wiley.html
@@ -18,10 +18,10 @@ Symbolic execution example adapted from Stephen Chong's slides (with content fro
 http://www.seas.harvard.edu/courses/cs252/2011sp/slides/Lec13-SymExec.pdf
 
 Symbolic execution code in WHILE:
-`while-interpreter/poly-while.scm`
+`talk-code/while-interpreter/poly-while.scm`
 
 Example symbolic execution call:
-`while-interpreter/poly-trans.scm`
+`talk-code/while-interpreter/poly-trans.scm`
 
 ------
 
@@ -36,14 +36,14 @@ environment-passing Scheme interpreter, written as a relation. We will extend th
 explore how the interpreter can be used for program synthesis.
 
 Minimal Scheme/Call-by-Value Lambda-calculus interpreter, written in Scheme:
-`interp.scm`
+`workshop-code/interp.scm`
 
 Minimal Scheme/Call-by-Value Lambda-calculus interpreter, written in miniKanren:
-`interpo.scm`
+`workshop-code/interpo.scm`
 
 Transcripts from the workshop:
-`trans.scm`,
-`trans2.scm`
+`workshop-code/trans.scm`,
+`workshop-code/trans2.scm`
 
 miniKanren.org: 
 http://minikanren.org/
