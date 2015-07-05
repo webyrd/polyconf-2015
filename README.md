@@ -1,8 +1,19 @@
 # polyconf-2015
-Resources for the PolyConf 2015 relational interpreters workshop
+Resources from both the PolyConf 2015 talk and relational interpreters workshop
 
 PolyConf 2015: 
 http://polyconf.com/
+
+------
+
+Talk
+
+
+
+
+------
+
+Workshop
 
 Write a Relational Scheme Interpreter in miniKanren
 
@@ -25,7 +36,6 @@ http://racket-lang.org/
 
 Vicare Scheme:
 http://marcomaggi.github.io/vicare.html
-
 
 Veneer (client-side JavaScript compiler for miniKanren):
 http://tca.github.io/veneer/editor.html
