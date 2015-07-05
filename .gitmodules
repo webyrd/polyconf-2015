@@ -4,3 +4,6 @@
 [submodule "talk-code/relational-interpreter-with-match"]
 	path = talk-code/relational-interpreter-with-match
 	url = https://github.com/webyrd/relational-interpreter-with-match
+[submodule "talk-code/while/-name"]
+	path = talk-code/while/-name
+	url = https://github.com/michaelballantyne/faster-miniKanren
