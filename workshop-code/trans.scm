@@ -1,8 +1,15 @@
 Vicare Scheme version 0.1d2, 64-bit
 Copyright (c) 2006-2010 Abdulaziz Ghuloum and contributors
 
-> (load "../faster-miniKanren/mk-vicare.scm")
-(load "../faster-miniKanren/mk.scm")
+> (load "mk.scm")
+Unhandled exception
+ Condition components:
+   1. &undefined
+   2. &who: eval
+   3. &message: "unbound variable"
+   4. &irritants: (empty-subst-map)
+> (load "mk-vicare.scm")
+(load "mk.scm")
 > > ==
 #<procedure == [char 12263 of mk.scm]>
 > (+ 3 4)
@@ -253,6 +260,14 @@ Copyright (c) 2006-2010 Abdulaziz Ghuloum and contributors
       (== (list 3 x 5 y 6 x 7 z) q)))
 ((3 4 5 _.0 6 4 7 _.1))
 > (load "interp.scm")
+Unhandled exception
+ Condition components:
+   1. &message: "invalid syntax"
+   2. &syntax:
+       form: (pmatch-aux #f expr ((lambda (,x) ,e)) ((,e1 ,e2)))
+       subform: #f
+   3. &trace: #<syntax (pmatch-aux #f expr ((lambda (,x) ,e)) ((,e1 ,e2)))>
+> (load "interp.scm")
 > (lookup 'z '())
 Unhandled exception
  Condition components:
@@ -321,6 +336,18 @@ Process scheme finished
 Vicare Scheme version 0.1d2, 64-bit
 Copyright (c) 2006-2010 Abdulaziz Ghuloum and contributors
 
+> (load "interpo.scm")
+Unhandled exception
+ Condition components:
+   1. &who: unquote
+   2. &message: "incorrect usage of auxiliary keyword"
+   3. &syntax:
+       form: ,x
+       subform: #f
+   4. &source-position:
+       file-name: "interpo.scm"
+       character: 304
+   5. &trace: #<syntax ,x [char 304 of interpo.scm]>
 > (load "interpo.scm")
 > (run 1 (q) (lookupo 'x '() q))
 ()
